@@ -1,3 +1,29 @@
+.nav-bar {
+    display: inline-block;
+    font-size: 2em;
+    width: 100%;
+    background-color: lightpink;
+}
+.nav-bar li{
+    margin: 0;
+    background: cornflowerblue;
+    color: white;
+    padding: 5px;
+    transition: .4s;
+    width: 125px;
+}
+.nav-bar li:hover {
+    color: #E3E300;
+    background-color: #ffaaff;
+    cursor: pointer;
+}
+.nav-bar li:active {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
 /* Currently, the <li> items are block level elements. Add correct styles to remove the bullets and display them as inline elements.*/
 li {
     list-style: none;
