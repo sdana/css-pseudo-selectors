@@ -11,6 +11,7 @@
     padding: 5px;
     transition: .4s;
     width: 125px;
+    text-align: center;
 }
 .nav-bar li:hover {
     color: #E3E300;
